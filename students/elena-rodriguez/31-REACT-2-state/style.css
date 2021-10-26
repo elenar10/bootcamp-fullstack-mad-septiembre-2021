@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.container_1 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.container_2 {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.container_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 3em;
+    gap: 1em;
+}
+
+.container_card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 3em;
+    gap: 1em;
+}
+
+.contenedor{
+    width: 100px;
+    height: 100px;
+}
+.divRojo {
+   
+    background-color: red;
+}
+
+.divVerde {
+    background-color: greenyellow;
+}
+
+/* .contenedor{
+   width: 80%;
+   height: auto;
+   
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+} */
+
+.card {
+    width: 80%;
+    height: auto;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: thistle;
+    border-radius: 3em;
+    -webkit-box-shadow: 5px 5px 15px 5px #5E5E5E; 
+    box-shadow: 5px 5px 15px 5px #5E5E5E;
+}
+
+.imagen {
+    width: 60%;
+    height: auto;
+    margin-top: 3em;
+    border-radius: 5em;
+
+}
+
+.textos{
+    width: 60%;
+    height: auto;
+    margin-top: 2rem;
+    display: flex;
+    columns: auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parrafo {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flipVertical {
+    transition: 0.8s ease-in;
+    transform-style: preserve-3d;
+    transform: perspective(700px);
+    transform: rotateY(180deg);
+}
+
+
+.flipHorizontal {
+    transition: 0.8s ease-in;
+    transform-style: preserve-3d;
+    transform: perspective(700px);
+   
+}
+  /* creamos este giro más para el IndexCard */
+.flipGiro {
+    transition: 0.8s ease-in;
+    transform-style: preserve-3d;
+    transform: perspective(700px);
+    transform: rotateZ(180deg);
+   
+}
